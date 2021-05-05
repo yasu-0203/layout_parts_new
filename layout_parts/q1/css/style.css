@@ -1,6 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    display: block;
+}
 
 .q1 {
     width: 940px;
@@ -26,4 +41,37 @@
 p {
     margin: 20px;
 }
+
+.box_content_center {
+    width: 270px;
+    background-color: #3274ae;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 20px;
+    
+}
+
+.box_inner_content_center {
+    width: 210px;
+    background-color: #eaf4ff;
+    border: solid 10px #022336;
+    margin: 20px;
+}
+
+.box_content_right {
+    width: 270px;
+    background-color: #3274ae;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 20px;
+    
+}
+
+.box_inner_content_right {
+    width: 210px;
+    background-color: #eaf4ff;
+    border: solid 10px #022336;
+    margin: 20px;
+}
+
 /* 回答はここに書いてね */
