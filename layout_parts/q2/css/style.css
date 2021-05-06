@@ -4,5 +4,22 @@
 .q2 {
     width: 940px;
     background-color: #eff3f4;
+    margin: auto;
+}
+
+#pic01 {
+    float: left;
+    margin-right: 20px;
+}
+
+#pic02 {
+    float: right;
+    margin: 10px 20px;
+}
+
+.q2_text {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px;
 }
 /* 回答はここに書いてね */
