@@ -30,6 +30,6 @@
 .q2_text {
   font-size: 18px;
   line-height: 22px;
-  text-align:justify;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
