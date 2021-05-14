@@ -2,12 +2,13 @@
 
 /* 回答はここに書いてね */
 .question4 {
-  padding: 20px;
   box-sizing: border-box;
+  padding: 20px;
   background-color: #ECF1F2;
 }
 
 .q4_block {
+  width: 100%;
   display: table;
   margin-top: 20px;
 }
@@ -16,7 +17,7 @@
   margin-top: 0;
 }
 
-.q4_block_container  {
+.q4_block_container {
  display: table-cell;
  padding: 20px 0;
  text-align: center;
@@ -37,7 +38,6 @@
 }
 
 .yellow {
-  padding: 20px;
   background-color: #e5d32e;
 }
 
@@ -47,7 +47,6 @@
 
 .green {
   width: 500px;
-  padding: 20px;
   background-color: #8fdcad;
 }
 /* 回答はここに書いてね */
