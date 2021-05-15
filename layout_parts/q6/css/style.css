@@ -2,10 +2,6 @@
 
 /* 回答はここに書いてね */
 
-.q6_text-align_text {
-  display: inline-block;
-}
-
 .q6_text-align_text, .q6_margin_text {
   text-align: center;
   width: 90px;
@@ -15,6 +11,10 @@
 
 .q6_text-align {
   text-align: center;
+}
+
+.q6_text-align_text {
+  display: inline-block;
 }
 
 .q6_margin_text {
