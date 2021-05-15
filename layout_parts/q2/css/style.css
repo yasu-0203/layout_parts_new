@@ -1,13 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.q2 {
+.question2 {
   width: 940px;
   background-color: #eff3f4;
   margin: auto;
@@ -15,13 +9,13 @@
 	box-sizing: border-box;
 }
 
-.pic01 {
+.pic_left {
   float: left;
   margin-right: 20px;
 	margin-bottom: 10px;
 }
 
-.pic02 {
+.pic_right {
   float: right;
 	margin-left: 20px;
 	margin-bottom: 10px;
