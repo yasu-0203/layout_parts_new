@@ -2,76 +2,34 @@
 
 /* 回答はここに書いてね */
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.clearfix:before {
-    content: "";
-    display: block;
-    clear: both;
+.q1_box {
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: auto;
 }
 
-.clearfix {
-    display: block;
+.q1_box_content {
+  width: 230px;
+  background-color: #3274ae;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
 }
 
-.q1 {
-    width: 940px;
-    height: 492px;
-    background-color: #eff3f4;
-    margin: auto;
-    position: relative;
+.q1_box_content:first-child {
+  margin-left: 0;
 }
 
-.box_content_left {
-    width: 270px;
-    background-color: #3274ae;
-    margin: 20px;
-    position: absolute;
-}
-
-.box_inner_content_left {
-    width: 210px;
-    background-color: #eaf4ff;
-    border: solid 10px #022336;
-    margin: 20px;
-}
-p {
-    margin: 20px;
-}
-
-.box_content_center {
-    width: 270px;
-    background-color: #3274ae;
-    position: absolute;
-    margin-left: 310px;
-    margin-top: 20px;
-    
-}
-
-.box_inner_content_center {
-    width: 210px;
-    background-color: #eaf4ff;
-    border: solid 10px #022336;
-    margin: 20px;
-}
-
-.box_content_right {
-    width: 270px;
-    background-color: #3274ae;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 20px;
-    
-}
-
-.box_inner_content_right {
-    width: 210px;
-    background-color: #eaf4ff;
-    border: solid 10px #022336;
-    margin: 20px;
+.q1_box_content_text {
+	padding: 20px;
+	background-color: #eaf4ff;
+	border: solid 10px #022336;
 }
 
 /* 回答はここに書いてね */
