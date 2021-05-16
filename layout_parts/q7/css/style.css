@@ -1,5 +1,94 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.question7_float_inner_text {
+  width: 225px;
+  margin-left: 50px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.question7_float_inner_text:first-child {
+  margin-left: 0;
+}
+
+.question7_table {
+  display: table;
+}
+
+.question7_table_box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.question7_table_text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.question7_table_box:first-child {
+  padding-left: 0;
+}
+
+.question7_inlineblock {
+  font-size: 0;
+}
+
+.question7_inlineblock_text {
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.question7_inlineblock_text:first-child {
+  margin-left: 0;
+}
+
+.question7_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.question7_flex_box {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.question7_margin {
+  font-size: 0;
+}
+
+.question7_margin_box {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.question7_margin_box_flexible {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.question7_margin_text {
+  font-size: 16px;
+}
 
 /* 回答はここに書いてね */
