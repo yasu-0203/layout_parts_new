@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .question2 {
   width: 940px;
   background-color: #eff3f4;
