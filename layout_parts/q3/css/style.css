@@ -9,7 +9,7 @@
   text-align: center  ;
 }
 
-th{
+.question3 th{
   font-size: 18px;
   line-height: 26px;
   color: #fff;
@@ -17,23 +17,23 @@ th{
 }
 
 
-th, td {
+.question3 th, .question3 td {
     padding: 10px;
     border: 1px solid #dedede;
 }
 
-td:first-child {
+.question3 td:first-child {
   font-size: 18px;
   line-height: 26px;
   color: #fff;
   background-color: #2244aa;
 }
 
-tr:nth-child(even) {
+.question3 tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.question3 tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
