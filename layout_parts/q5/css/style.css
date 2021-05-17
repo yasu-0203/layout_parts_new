@@ -22,56 +22,56 @@
   background-color: #ffefd3; 
   top: 40px;
   left: 200px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .box_02 {
   background-color: #7084de;
   top: 120px;
   left: 280px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .box_03 {
   background-color: #d0ecea;
   top: 200px;
   left: 360px;
-  z-index: 4;
+  z-index: 3;
 }
 
 .box_04 {
   background-color: #8b7a5e;
   top: 280px;
   left: 280px;
-  z-index: 5;
+  z-index: 4;
 }
 
 .box_05 {
   background-color: #9fd6d2; 
   top: 360px;
   left: 200px;
-  z-index: 6;
+  z-index: 5;
 }
 
 .box_06 {
   background-color: #fffee4;
   top: 280px;
   left: 120px;
-  z-index: 7;
+  z-index: 6;
 }
 
 .box_07 {
   background-color: #deae70;
   top: 200px;
   left: 40px;
-  z-index: 8;
+  z-index: 7;
 }
 
 .box_08 {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
-  z-index: 9;
+  z-index: 8;
 }
 
 .box_08:after {
