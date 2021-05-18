@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+/* 回答はここに書いてね */ 
 .clearfix::after {
   content: "";
   display: block;
