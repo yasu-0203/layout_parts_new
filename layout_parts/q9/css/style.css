@@ -20,6 +20,7 @@
 .question9_box:before, .question9_box:after {
   content: '';
   position: absolute;
+  border-width: 20px 20px 0 20px;
   border-style: solid;
   transform: translate(-50%, -50%);
   left: 10%;
@@ -28,7 +29,6 @@
 .question9_box:before {
   z-index: 1;
   border-color: #222 transparent;
-  border-width: 20px 20px 0 20px;
   bottom: -34px;
 }
 
