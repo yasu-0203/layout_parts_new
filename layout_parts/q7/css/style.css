@@ -1,6 +1,18 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */ 
+/* 回答はここに書いてね */
+.question7_text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.question7_text:first-child {
+  margin-left: 0;
+}
+
+/*float*/
 .clearfix::after {
   content: "";
   display: block;
@@ -8,17 +20,10 @@
 }
 
 .question7_float_inner_text {
-  width: 225px;
-  margin-left: 50px;
   float: left;
-  font-size: 16px;
-  box-sizing: border-box;
 }
 
-.question7_float_inner_text:first-child {
-  margin-left: 0;
-}
-
+/*table*/
 .question7_table {
   display: table;
 }
@@ -29,45 +34,35 @@
   padding-left: 50px;
 }
 
-.question7_table_text {
-  width: 225px;
-  font-size: 16px;
-  box-sizing: border-box;
-}
-
 .question7_table_box:first-child {
   padding-left: 0;
 }
 
+
+/*inline-block*/
 .question7_inlineblock {
   font-size: 0;
 }
 
 .question7_inlineblock_text {
   display: inline-block;
-  width: 225px;
-  margin-left: 50px;
-  font-size: 16px;
-  box-sizing: border-box;
   vertical-align: middle;
 }
 
-.question7_inlineblock_text:first-child {
-  margin-left: 0;
-}
 
+/*flex*/
 .question7_flex {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.question7_flex_box {
-  width: 225px;
-  font-size: 16px;
-  box-sizing: border-box;
+.question7_text_flex {
+  margin-left: 0;
 }
 
+
+/*margin*/
 .question7_margin {
   font-size: 0;
 }
